@@ -77,7 +77,7 @@ Estes itens foram escritos como exemplo e precisam ser confirmados pela empresa:
 - **Linha do tempo** (Quem Somos): marcos por década são ilustrativos.
 - **Certificados**: a lista descreve licenças típicas do setor; confirme quais a empresa possui.
 - **Notícias**: três artigos técnicos de exemplo, com datas fictícias.
-- **Logos de clientes**: aparecem como nome em texto. Para usar os logotipos oficiais, é preciso autorização de cada marca.
+- **Logos de clientes**: ficam em `src/assets/img/clients/` (PNG) e são ligadas pelo campo `logo` em `clients` no `config.json`. Cliente sem `logo` aparece como nome em texto. Confirme a autorização de uso de cada marca.
 - **Política de Privacidade**: revisar com o jurídico, principalmente a parte da lei paraguaia.
 - **Redes sociais**: preencher `social` no `config.json`.
 

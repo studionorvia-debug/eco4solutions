@@ -447,3 +447,9 @@ p { margin: 0 0 1em; text-wrap: pretty; }
   .stat { border-left: 0; border-top: 1px solid var(--line); }
   .stat:first-child { border-top: 0; }
 }
+
+/* logos de clientes (imagens com fundo branco: o card fica branco nos dois temas) */
+.mq-track li.has-logo { background: #fff; min-width: 0; padding: 0 26px; }
+.mq-track li.has-logo img { height: 64px; width: auto; max-width: 220px; object-fit: contain; }
+.mq-track li.has-logo:hover { filter: none; opacity: 1; border-color: var(--line); }
+.p-clients .marquee { margin-top: 8px; }

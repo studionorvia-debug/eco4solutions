@@ -39,13 +39,13 @@
   },
 
   "clients": [
-    { "name": "AB InBev", "color": "#C8A44D" },
-    { "name": "Heineken", "color": "#2BA84A" },
-    { "name": "Itaipava", "color": "#D7262E" },
-    { "name": "Cervepar", "color": "#E0B13A" },
-    { "name": "Munich Beer", "color": "#3B7DD8" },
-    { "name": "Cerpa", "color": "#D9452B" },
-    { "name": "INAB", "color": "#2C8C7A" }
+    { "name": "AB InBev", "logo": "/assets/img/clients/ab-inbev.png", "color": "#C8A44D" },
+    { "name": "Heineken", "logo": "/assets/img/clients/heineken.png", "color": "#2BA84A" },
+    { "name": "Itaipava", "logo": "/assets/img/clients/itaipava.png", "color": "#D7262E" },
+    { "name": "Cervepar", "logo": "/assets/img/clients/cervepar.png", "color": "#E0B13A" },
+    { "name": "Munich Beer", "logo": "/assets/img/clients/munich-beer.png", "color": "#3B7DD8" },
+    { "name": "Cerpa", "logo": "/assets/img/clients/cerpa.png", "color": "#D9452B" },
+    { "name": "INAB", "logo": "/assets/img/clients/inab.png", "color": "#2C8C7A" }
   ],
 
   "testimonials": [

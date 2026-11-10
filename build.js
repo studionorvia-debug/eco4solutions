@@ -243,8 +243,11 @@ const ytFacade = (id, label, lang) => `<button class="yt" type="button" data-yt=
   <span class="yt-play">${icon('play')}</span></button>`;
 
 const marquee = () => {
-  const row = cfg.clients.map(c => `<li style="--c:${c.color}">${esc(c.name)}</li>`).join('');
-  return `<div class="marquee"><ul class="mq-track">${row}</ul><ul class="mq-track" aria-hidden="true">${row}</ul></div>`;
+  // cliente com "logo" no config mostra a imagem; sem logo, mostra o nome
+  const row = alt => cfg.clients.map(c => c.logo
+    ? `<li class="has-logo"><img src="${esc(c.logo)}" alt="${alt ? esc(c.name) : ''}" decoding="async" height="160"></li>`
+    : `<li style="--c:${c.color}">${esc(c.name)}</li>`).join('');
+  return `<div class="marquee"><ul class="mq-track">${row(true)}</ul><ul class="mq-track" aria-hidden="true">${row(false)}</ul></div>`;
 };
 
 const newsCards = (lang, list) => `<div class="news-grid">${list.map((n, i) => {
@@ -510,8 +513,7 @@ function clients(lang) {
   const body = `${pageHero(lang, c.h1, c.lead, [[c.h1]])}
 <section class="sec"><div class="wrap">
   <h2 class="rv">${esc(c.clientsTitle)}</h2>
-  <ul class="logo-grid">${cfg.clients.map((x, i) => `<li class="rv" style="--c:${x.color};--d:${i * 50}ms">${esc(x.name)}</li>`).join('')}</ul>
-</div></section>
+</div>${marquee()}</section>
 <section class="sec"><div class="wrap">
   <h2 class="rv">${esc(c.partnersTitle)}</h2>
   <div class="values">${c.partners.map((v, i) => `<div class="value rv" style="--d:${i * 70}ms"><h3>${esc(v.t)}</h3><p>${esc(v.p)}</p></div>`).join('')}</div>

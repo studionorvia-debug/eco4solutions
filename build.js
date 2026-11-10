@@ -13,6 +13,9 @@ const L = Object.fromEntries(LANGS.map(l => [l,
 const PAGES = ['home', 'about', 'certificates', 'clients', 'breweries', 'composting', 'feed', 'tech', 'news', 'contact', 'privacy'];
 const SOL = ['breweries', 'composting', 'feed', 'tech'];
 const BASE = cfg.siteUrl.replace(/\/$/, '');
+// versão dos arquivos pelo conteúdo: o navegador baixa CSS/JS novos a cada mudança (evita cache antigo)
+const ver = f => require('crypto').createHash('md5').update(fs.readFileSync(path.join(SRC, f))).digest('hex').slice(0, 8);
+const V = { css: ver('assets/css/style.css'), js: ver('assets/js/main.js') };
 
 /* ---------- self-checks: traduções completas, sem travessões, vídeos únicos ---------- */
 const keys = (o, p = '') => Object.entries(o).flatMap(([k, v]) =>
@@ -105,9 +108,9 @@ ${LANGS.filter(l => l !== lang).map(l => `<meta property="og:locale:alternate" c
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/style.css?v=${V.css}">
 <script>(function(){var r=document.documentElement;r.classList.add('js');try{var t=localStorage.getItem('theme');r.dataset.theme=t||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');${redirect}}catch(e){}})();</script>
-<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/main.js?v=${V.js}" defer></script>
 ${meta.schema ? `<script type="application/ld+json">${JSON.stringify(meta.schema)}</script>` : ''}
 </head>`;
 }
@@ -245,7 +248,7 @@ const ytFacade = (id, label, lang) => `<button class="yt" type="button" data-yt=
 const marquee = () => {
   // cliente com "logo" no config mostra a imagem; sem logo, mostra o nome
   const row = alt => cfg.clients.map(c => c.logo
-    ? `<li class="has-logo"><img src="${esc(c.logo)}" alt="${alt ? esc(c.name) : ''}" decoding="async" height="160"></li>`
+    ? `<li class="has-logo"><img src="${esc(c.logo)}" alt="${alt ? esc(c.name) : ''}" decoding="async" height="64"></li>`
     : `<li style="--c:${c.color}">${esc(c.name)}</li>`).join('');
   return `<div class="marquee"><ul class="mq-track">${row(true)}</ul><ul class="mq-track" aria-hidden="true">${row(false)}</ul></div>`;
 };

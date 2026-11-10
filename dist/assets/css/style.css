@@ -453,3 +453,8 @@ p { margin: 0 0 1em; text-wrap: pretty; }
 .mq-track li.has-logo img { height: 64px; width: auto; max-width: 220px; object-fit: contain; }
 .mq-track li.has-logo:hover { filter: none; opacity: 1; border-color: var(--line); }
 .p-clients .marquee { margin-top: 8px; }
+
+/* o carrossel de clientes continua passando mesmo com "reduzir movimento" (mais lento); pausa ao passar o mouse */
+@media (prefers-reduced-motion: reduce) {
+  .mq-track { animation: marquee 60s linear infinite !important; }
+}

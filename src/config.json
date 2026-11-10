@@ -1,0 +1,64 @@
+{
+  "siteUrl": "https://eco4solutions.com",
+  "companyName": "Eco 4 Solutions",
+  "formEndpoint": "",
+  "foundingYear": 1989,
+
+  "stats": [
+    { "key": "tons", "value": 2500000, "prefix": "+" },
+    { "key": "clients", "value": 7, "prefix": "" },
+    { "key": "cattle", "value": 150000, "prefix": "+" },
+    { "key": "years", "value": 37, "prefix": "" }
+  ],
+
+  "offices": {
+    "br": {
+      "city": "Miguel Pereira, RJ",
+      "phoneDisplay": "+55 (24) 2090-1034",
+      "phoneE164": "+552420901034",
+      "email": "contato@eco4solutions.com",
+      "address": "Rua Zélia, 182, Centro, Miguel Pereira, RJ, Brasil",
+      "lat": -22.4537,
+      "lon": -43.4689
+    },
+    "py": {
+      "city": "Villeta, Departamento Central",
+      "phoneDisplay": "+595 991 194093",
+      "phoneE164": "+595991194093",
+      "email": "oficina.py@eco4solutions.com",
+      "address": "Villeta, Departamento Central, Paraguay",
+      "lat": -25.5097,
+      "lon": -57.5586
+    }
+  },
+
+  "social": {
+    "instagram": "",
+    "linkedin": "",
+    "youtube": ""
+  },
+
+  "clients": [
+    { "name": "AB InBev", "color": "#C8A44D" },
+    { "name": "Heineken", "color": "#2BA84A" },
+    { "name": "Itaipava", "color": "#D7262E" },
+    { "name": "Cervepar", "color": "#E0B13A" },
+    { "name": "Munich Beer", "color": "#3B7DD8" },
+    { "name": "Cerpa", "color": "#D9452B" },
+    { "name": "INAB", "color": "#2C8C7A" }
+  ],
+
+  "testimonials": [
+    { "name": "Nome do cliente", "company": "Cervejaria parceira", "youtubeId": "" },
+    { "name": "Nome do cliente", "company": "Cervejaria parceira", "youtubeId": "" },
+    { "name": "Nome do cliente", "company": "Fazenda parceira", "youtubeId": "" }
+  ],
+
+  "news": [
+    { "id": "bagaco-na-dieta-do-gado", "date": "2026-10-20" },
+    { "id": "indicadores-de-economia-circular", "date": "2026-09-15" },
+    { "id": "operacao-no-paraguai", "date": "2026-08-05" }
+  ],
+
+  "videos": []
+}

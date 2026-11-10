@@ -1,0 +1,361 @@
+{
+  "lang": "es",
+  "htmlLang": "es",
+  "ogLocale": "es_PY",
+  "label": "ES",
+  "name": "Español",
+  "routes": {
+    "home": "",
+    "about": "quienes-somos",
+    "certificates": "certificados",
+    "clients": "clientes-y-socios",
+    "breweries": "soluciones/cervecerias",
+    "composting": "soluciones/compostaje",
+    "feed": "soluciones/nutricion-animal",
+    "tech": "soluciones/tecnologia-e-innovacion",
+    "news": "noticias",
+    "contact": "contacto",
+    "privacy": "politica-de-privacidad"
+  },
+  "nav": {
+    "about": "Nosotros",
+    "solutions": "Soluciones",
+    "tech": "Tecnología",
+    "clients": "Clientes",
+    "news": "Noticias",
+    "contact": "Contacto",
+    "cta": "Solicitar propuesta",
+    "menu": "Abrir menú",
+    "theme": "Cambiar entre tema claro y oscuro",
+    "langLabel": "Idioma",
+    "skip": "Saltar al contenido",
+    "home": "Inicio",
+    "main": "Navegación principal"
+  },
+  "common": {
+    "logoAlt": "Eco 4 Solutions",
+    "learnMore": "Más información",
+    "seeOnMap": "Ver en el mapa",
+    "brazil": "Brasil",
+    "paraguay": "Paraguay",
+    "phone": "Teléfono y WhatsApp",
+    "email": "Correo electrónico",
+    "address": "Dirección",
+    "waQuestion": "¿Brasil o Paraguay?",
+    "waLabel": "Conversar por WhatsApp",
+    "waText": "¡Hola! Llegué desde el sitio de Eco 4 Solutions y me gustaría hablar con un especialista.",
+    "playVideo": "Reproducir video de",
+    "rights": "Todos los derechos reservados.",
+    "footerText": "Gestión ambiental de residuos de la industria cervecera y economía circular desde hace {years} años, en Brasil y Paraguay.",
+    "footerNav": "Empresa",
+    "footerSolutions": "Soluciones",
+    "follow": "Redes sociales",
+    "readMore": "Leer artículo",
+    "allNews": "Ver todas las noticias",
+    "ctaTitle": "¿Convertimos los residuos de su cervecería en un indicador ESG positivo?",
+    "ctaText": "Hable con un especialista y reciba un diagnóstico de los residuos de su operación.",
+    "ctaSecondary": "Hablar con un especialista",
+    "certificates": "Certificados",
+    "privacy": "Política de Privacidad",
+    "office": "Oficina"
+  },
+  "pages": {
+    "home": { "title": "Eco 4 Solutions | Gestión de residuos cerveceros y economía circular", "description": "Desde hace {years} años transformamos los residuos de la industria cervecera en nutrición animal, compost orgánico y nuevos productos. Presentes en Brasil y Paraguay." },
+    "about": { "title": "Quiénes Somos | Eco 4 Solutions", "description": "Historia, misión y valores de Eco 4 Solutions: {years} años de economía circular aplicada a la industria cervecera en Brasil y Paraguay." },
+    "certificates": { "title": "Certificados y Licencias | Eco 4 Solutions", "description": "Licencias ambientales, registros y certificaciones que respaldan las operaciones de Eco 4 Solutions en Brasil y Paraguay." },
+    "clients": { "title": "Clientes y Socios | Eco 4 Solutions", "description": "AB InBev, Heineken, Itaipava, Cervepar, Munich Beer, Cerpa e INAB confían en Eco 4 Solutions para la gestión de sus residuos." },
+    "breweries": { "title": "Gestión de residuos para cervecerías | Eco 4 Solutions", "description": "Gestión integral de los residuos de la cervecería en un solo contrato: recolección, destino de mayor valor, trazabilidad e indicadores ESG." },
+    "composting": { "title": "Compostaje de residuos cerveceros | Eco 4 Solutions", "description": "Compostaje controlado de fracciones orgánicas de la industria cervecera, con menos residuos a relleno sanitario y compost de calidad para el suelo." },
+    "feed": { "title": "Bagazo de cerveza para nutrición animal | Eco 4 Solutions", "description": "Bagazo de cerveza estabilizado con tecnología propia: alimento rico en proteína y fibra para ganado de carne y de leche, con entregas programadas." },
+    "tech": { "title": "Tecnología e Innovación | Eco 4 Solutions", "description": "Conozca la tecnología propia de Eco 4 Solutions que estabiliza, conserva y convierte residuos cerveceros en productos con valor de mercado." },
+    "news": { "title": "Noticias y Videos | Eco 4 Solutions", "description": "Artículos, novedades y videos sobre economía circular, gestión de residuos cerveceros y nutrición animal." },
+    "contact": { "title": "Contacto | Eco 4 Solutions", "description": "Comuníquese con Eco 4 Solutions en Brasil o Paraguay. Solicite una propuesta para la gestión de los residuos de su cervecería." },
+    "privacy": { "title": "Política de Privacidad | Eco 4 Solutions", "description": "Cómo Eco 4 Solutions trata los datos personales conforme a la legislación paraguaya de protección de datos y a la LGPD de Brasil." }
+  },
+  "home": {
+    "hero": {
+      "title": "Transformamos residuos en valor",
+      "lead": "Desde hace {years} años gestionamos todos los residuos de la industria cervecera en Brasil y Paraguay, y convertimos el bagazo de cerveza en nutrición animal, compost orgánico y nuevos productos con tecnología propia.",
+      "primary": "Conozca nuestras soluciones",
+      "secondary": "Hablar con un especialista",
+      "chips": ["Tecnología", "Innovación", "Sostenibilidad"]
+    },
+    "stats": {
+      "title": "Impacto ambiental que se puede medir",
+      "items": {
+        "tons": "toneladas de residuos gestionados",
+        "clients": "grupos cerveceros atendidos",
+        "cattle": "cabezas de ganado alimentadas por año",
+        "years": "años de economía circular"
+      }
+    },
+    "cycle": {
+      "title": "El ciclo que cierra la cuenta",
+      "lead": "Cada etapa está pensada para que nada de la cervecería termine en un relleno sanitario. Toque las etapas para explorar el flujo.",
+      "center": "Economía circular",
+      "steps": {
+        "brewery": { "name": "Cervecería", "text": "La producción genera bagazo, levadura, trub, lodos de la planta de tratamiento y otros residuos." },
+        "residue": { "name": "Residuo", "text": "Recolección programada a la salida de la planta, con control de volumen por carga y documentación ambiental." },
+        "treatment": { "name": "Tratamiento Eco4", "text": "Nuestra tecnología estabiliza, conserva y clasifica cada fracción hacia el destino de mayor valor." },
+        "feed": { "name": "Nutrición animal", "text": "El bagazo tratado se convierte en alimento rico en proteína y fibra para ganado de carne y de leche." },
+        "compost": { "name": "Compostaje", "text": "Las fracciones orgánicas se transforman en compost que devuelve materia orgánica y nutrientes al suelo." },
+        "products": { "name": "Nuevos productos", "text": "Los subproductos encuentran nuevas aplicaciones agrícolas e industriales y se reduce el descarte." },
+        "field": { "name": "Retorno al campo", "text": "Suelos más fértiles y ganado bien alimentado cierran el ciclo que vuelve a producir granos." }
+      }
+    },
+    "solutions": {
+      "title": "Soluciones para toda la cadena",
+      "lead": "De la planta al campo, un único socio se ocupa del residuo y entrega el resultado en indicadores."
+    },
+    "tech": {
+      "title": "Tecnología propia que convierte residuos en productos",
+      "lead": "Un proceso desarrollado durante décadas de operación con grandes cervecerías, que controla las variables que degradan el residuo y prepara cada fracción para el destino correcto.",
+      "steps": [
+        { "t": "Recolección y trazabilidad", "p": "Retiro programado en la planta, con registro de volumen, origen y horario de cada carga." },
+        { "t": "Estabilización", "p": "Control de humedad, temperatura y actividad microbiana para conservar el residuo por más tiempo." },
+        { "t": "Clasificación y conversión", "p": "Cada fracción se destina a nutrición animal, compostaje o nuevos productos según sus características." },
+        { "t": "Destino e informe", "p": "Entrega en el destino final e informe con volúmenes, destinos e indicadores ambientales por período." }
+      ],
+      "benefitsTitle": "Resultados para la cervecería",
+      "benefits": [
+        "Valorización como prioridad y menos residuos a relleno sanitario",
+        "Indicadores ambientales por lote, listos para informes ESG",
+        "Menor costo de disposición y una operación previsible",
+        "Cumplimiento de la normativa ambiental de Brasil y Paraguay"
+      ],
+      "cta": "Conozca la tecnología"
+    },
+    "clients": {
+      "title": "Quiénes confían en Eco4",
+      "lead": "Grandes grupos cerveceros de Brasil y Paraguay cuentan con nuestra operación."
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "items": [
+        { "role": "Gerente de Medio Ambiente", "quote": "Eco4 asumió la gestión de todos nuestros residuos y nos entrega indicadores que usamos directamente en el informe de sostenibilidad." },
+        { "role": "Director Industrial", "quote": "La operación acompaña el ritmo de la planta, incluso en los picos de producción. Ganamos previsibilidad y redujimos los costos de disposición." },
+        { "role": "Productor ganadero", "quote": "El bagazo llega estable y a tiempo. Ya es parte fija de la dieta del rodeo y nos ayudó a controlar el costo de alimentación." }
+      ]
+    },
+    "presence": {
+      "title": "Presencia en Brasil y Paraguay",
+      "lead": "Dos oficinas y una operación integrada para atender a las cervecerías de la región con el mismo estándar técnico.",
+      "mapAlt": "Mapa estilizado de Brasil y Paraguay con las oficinas de Miguel Pereira, RJ, y Villeta, Departamento Central"
+    },
+    "news": { "title": "Noticias y contenido técnico" },
+    "contact": {
+      "title": "Hable con Eco4",
+      "lead": "Elija la oficina más cercana o envíe su solicitud a través del formulario."
+    }
+  },
+  "solutions": {
+    "breweries": {
+      "name": "Cervecerías",
+      "card": "Gestión integral de los residuos de su planta, desde la recolección hasta el destino final, con trazabilidad e informes listos para ESG.",
+      "h1": "Gestión de residuos para cervecerías",
+      "lead": "Asumimos la gestión de todos los residuos que genera su planta, con una sola operación, un solo contrato e indicadores listos para su informe ESG.",
+      "blocks": [
+        { "h": "Un socio para todos los residuos", "p": "Bagazo, levadura excedente, trub, lodos de la planta de tratamiento, tierra de diatomeas, envases y reciclables. Cada fracción recibe el destino de mayor valor posible, con prioridad para la valorización." },
+        { "h": "Una operación integrada a su rutina", "p": "Equipos y maquinaria dimensionados al ritmo de producción de la cervecería, con recolección programada, contingencia para picos de demanda y comunicación directa con el equipo industrial." },
+        { "h": "Trazabilidad de punta a punta", "p": "Cada carga queda documentada desde la salida de la planta hasta el destino final. Usted recibe informes periódicos con volúmenes, destinos e indicadores ambientales auditables." }
+      ],
+      "pointsTitle": "Qué incluye",
+      "points": [
+        "Diagnóstico de los residuos por línea y proceso",
+        "Plan de destino con prioridad para la valorización",
+        "Recolección, transporte y almacenamiento adecuados",
+        "Documentación ambiental y control de manifiestos",
+        "Informes de indicadores para ESG y auditorías",
+        "Atención en Brasil y Paraguay"
+      ]
+    },
+    "composting": {
+      "name": "Compostaje",
+      "card": "Transformamos fracciones orgánicas en compost de calidad, que devuelve nutrientes al suelo y evita el envío a rellenos sanitarios.",
+      "h1": "Compostaje de residuos cerveceros",
+      "lead": "Transformamos las fracciones orgánicas de la producción de cerveza en un compost estable, que devuelve materia orgánica y nutrientes al suelo.",
+      "blocks": [
+        { "h": "Del residuo al insumo agrícola", "p": "Lodos biológicos, restos de malta y otras fracciones orgánicas pasan por un compostaje controlado, con monitoreo de temperatura, humedad y aireación en todas las etapas." },
+        { "h": "Calidad controlada", "p": "Cada lote se sigue hasta su maduración completa, para obtener un compost homogéneo y seguro para cultivos, pasturas y recuperación de áreas degradadas." },
+        { "h": "Menos relleno, más suelo vivo", "p": "El compostaje evita enviar materia orgánica a rellenos sanitarios, reduce las emisiones asociadas al descarte y fortalece la agricultura regional." }
+      ],
+      "pointsTitle": "Beneficios",
+      "points": [
+        "Destino ambientalmente adecuado de las fracciones orgánicas",
+        "Menor volumen enviado a rellenos sanitarios",
+        "Compost rico en materia orgánica para el suelo",
+        "Monitoreo técnico de cada lote",
+        "Indicadores de residuos desviados del relleno",
+        "Ciclo cerrado con el productor rural"
+      ]
+    },
+    "feed": {
+      "name": "Nutrición Animal",
+      "card": "El bagazo de cerveza tratado se convierte en un alimento nutritivo y de costo competitivo para ganado de carne y de leche.",
+      "h1": "Nutrición animal con bagazo de cerveza",
+      "lead": "El bagazo tratado por Eco4 es un alimento rico en proteína y fibra que ayuda a los productores a mantener rodeos productivos con un costo competitivo.",
+      "blocks": [
+        { "h": "Alimento de alto valor nutricional", "p": "El bagazo de cerveza concentra proteína, fibra digestible y energía, y se usa ampliamente en la dieta del ganado de carne y de leche como complemento del forraje y del concentrado." },
+        { "h": "Una conservación que marca la diferencia", "p": "Nuestro proceso estabiliza el bagazo justo después de la recolección, preserva sus cualidades por más tiempo y permite entregas regulares incluso a establecimientos lejanos." },
+        { "h": "Suministro confiable", "p": "Logística planificada para asegurar la regularidad, con orientación técnica sobre almacenamiento e inclusión del bagazo en la dieta del rodeo." }
+      ],
+      "pointsTitle": "Para el productor ganadero",
+      "points": [
+        "Fuente de proteína y fibra para ganado de carne y de leche",
+        "Costo competitivo frente a otros insumos",
+        "Producto estabilizado, con mayor vida útil",
+        "Entregas programadas y regulares",
+        "Orientación técnica sobre uso y almacenamiento",
+        "Origen trazado y documentado"
+      ]
+    },
+    "tech": {
+      "name": "Tecnología & Innovación",
+      "card": "Tecnología propia que estabiliza, conserva y convierte residuos en productos con valor de mercado.",
+      "h1": "Tecnología e Innovación",
+      "lead": "Una solución propia, desarrollada a lo largo de décadas, que estabiliza, conserva y convierte los residuos de la industria cervecera en productos con valor de mercado.",
+      "blocks": [
+        { "h": "Un proceso desarrollado en casa", "p": "Nuestra tecnología nació de la operación diaria con grandes cervecerías. Controla las variables que degradan el residuo, como la humedad, la temperatura y la actividad microbiana, y prepara cada fracción para el destino correcto." },
+        { "h": "Datos en cada etapa", "p": "Volúmenes, tiempos y destinos se registran por lote. Estos datos alimentan los informes de impacto que entregamos a los clientes y orientan la mejora continua del proceso." },
+        { "h": "Investigación de nuevos productos", "p": "Invertimos en nuevas aplicaciones para los subproductos cerveceros, para ampliar las rutas de valorización y reducir aún más el descarte." }
+      ],
+      "pointsTitle": "Beneficios de la tecnología Eco4",
+      "points": [
+        "Mayor vida útil del bagazo tratado",
+        "Destino de mayor valor para cada fracción",
+        "Indicadores ambientales por lote",
+        "Menor costo de disposición para la cervecería",
+        "Menos emisiones asociadas al descarte",
+        "Proceso validado a escala industrial"
+      ]
+    }
+  },
+  "about": {
+    "h1": "Quiénes Somos",
+    "lead": "Desde hace {years} años, Eco 4 Solutions transforma los residuos de la industria cervecera en recursos para el campo y la industria.",
+    "historyTitle": "Nuestra historia",
+    "history": [
+      "Eco 4 Solutions nació de una pregunta simple: ¿por qué un subproducto tan nutritivo como el bagazo de cerveza debía terminar descartado? La respuesta se convirtió en un modelo de negocio basado en la economía circular mucho antes de que el término se hiciera popular.",
+      "En casi cuatro décadas crecimos junto a las principales cervecerías de Brasil y Paraguay, desarrollamos tecnología propia de tratamiento y ampliamos nuestra actuación a la gestión de todos los residuos generados en las plantas."
+    ],
+    "timelineTitle": "{years} años en una línea de tiempo",
+    "timeline": [
+      { "year": "1989", "t": "Fundación", "p": "La empresa nace con una propuesta pionera: dar un destino útil al bagazo de las cervecerías." },
+      { "year": "Años 90", "t": "Primeros grandes contratos", "p": "La operación crece junto a las principales cervecerías del Sudeste de Brasil." },
+      { "year": "Años 2000", "t": "Tecnología propia", "p": "Desarrollamos el proceso que estabiliza y conserva el bagazo, y ampliamos plazos y radio de entrega a los productores." },
+      { "year": "Años 2010", "t": "Llegada a Paraguay", "p": "Apertura de la oficina en Villeta para atender a las cervecerías del país con el mismo estándar de operación." },
+      { "year": "Años 2020", "t": "Gestión integral y ESG", "p": "Pasamos a gestionar todos los residuos de la planta y a entregar indicadores ambientales para informes de sostenibilidad." },
+      { "year": "Hoy", "t": "{years} años de economía circular", "p": "Atendemos a grandes grupos cerveceros en ambos países y seguimos invirtiendo en nuevos productos." }
+    ],
+    "missionTitle": "Misión",
+    "mission": "Transformar los residuos de la industria cervecera en recursos para el campo y la industria, con tecnología, seguridad y resultados ambientales medibles.",
+    "visionTitle": "Visión",
+    "vision": "Ser la referencia en economía circular para la industria de bebidas en América del Sur.",
+    "valuesTitle": "Valores",
+    "values": [
+      { "t": "Impacto medible", "p": "Resultados ambientales demostrados con datos, no con promesas." },
+      { "t": "Innovación aplicada", "p": "Tecnología desarrollada a partir de la operación real, para problemas reales." },
+      { "t": "Alianzas de largo plazo", "p": "Relaciones construidas durante décadas con clientes y productores." },
+      { "t": "Transparencia y cumplimiento", "p": "Trazabilidad completa y respeto a la normativa de cada país." },
+      { "t": "Seguridad", "p": "Personas, procesos y ambiente protegidos en cada etapa." }
+    ]
+  },
+  "certificates": {
+    "h1": "Certificados y Licencias",
+    "lead": "Nuestras operaciones cumplen las exigencias ambientales, sanitarias y de seguridad de Brasil y Paraguay.",
+    "items": [
+      { "t": "Licencia Ambiental de Operación", "p": "Autorización del organismo ambiental para las actividades de tratamiento y destino de residuos en Brasil." },
+      { "t": "Registro Técnico Federal", "p": "Registro ante el IBAMA de las actividades potencialmente contaminantes y usuarias de recursos ambientales." },
+      { "t": "Registro ante el Ministerio de Agricultura", "p": "Registro del establecimiento y de los productos destinados a la alimentación animal." },
+      { "t": "Licencia ambiental en Paraguay", "p": "Declaración de impacto ambiental emitida por el Ministerio del Ambiente y Desarrollo Sostenible (MADES)." }
+    ],
+    "note": "Las copias de los documentos están disponibles para clientes y auditorías a pedido.",
+    "request": "Solicitar documentos"
+  },
+  "clients": {
+    "h1": "Clientes y Socios",
+    "lead": "Grandes grupos cerveceros y productores rurales forman parte del ciclo que Eco4 opera todos los días.",
+    "clientsTitle": "Clientes",
+    "partnersTitle": "Socios en el ciclo",
+    "partners": [
+      { "t": "Ganaderos y cooperativas", "p": "Reciben el bagazo tratado para la alimentación de rodeos de carne y de leche." },
+      { "t": "Productores rurales", "p": "Utilizan el compost orgánico para recuperar y enriquecer el suelo." },
+      { "t": "Industrias socias", "p": "Transforman subproductos cerveceros en nuevos productos y aplicaciones." },
+      { "t": "Transportistas habilitados", "p": "Aseguran la logística de los residuos con seguridad y documentación." }
+    ]
+  },
+  "news": {
+    "h1": "Noticias y Videos",
+    "lead": "Contenido técnico, novedades de Eco4 y videos sobre economía circular en la industria cervecera.",
+    "videosTitle": "Videos",
+    "items": {
+      "bagaco-na-dieta-do-gado": {
+        "title": "Bagazo de cerveza en la dieta del ganado: qué tener en cuenta",
+        "excerpt": "Por qué el bagazo se volvió un aliado de la ganadería y cómo asegurar su calidad desde el almacenamiento hasta el comedero.",
+        "body": [
+          "El bagazo de cerveza es rico en proteína y fibra digestible, lo que lo convierte en un complemento eficiente en la dieta del ganado de carne y de leche. Al ser un producto húmedo, su calidad depende directamente de cómo se trata y conserva después de salir de la cervecería.",
+          "Con la estabilización que aplica Eco4, el bagazo mantiene sus características por más tiempo, lo que da al productor más flexibilidad en el almacenamiento y en la formulación de la dieta.",
+          "Recomendamos siempre el acompañamiento de un nutricionista animal o veterinario para definir la inclusión ideal en cada categoría del rodeo."
+        ]
+      },
+      "indicadores-de-economia-circular": {
+        "title": "Economía circular en la cervecería: los indicadores que importan",
+        "excerpt": "Qué números muestran realmente el impacto ambiental de la gestión de residuos y cómo llevarlos al informe ESG.",
+        "body": [
+          "La tasa de valorización, el volumen desviado del relleno sanitario y el destino final por fracción son los indicadores más solicitados por las áreas de sostenibilidad y las auditorías.",
+          "En Eco4 cada carga se registra desde la salida de la planta hasta su destino. Este historial permite consolidar informes periódicos con datos verificables, listos para el informe anual de sostenibilidad."
+        ]
+      },
+      "operacao-no-paraguai": {
+        "title": "Una operación, dos países: cómo atendemos a Paraguay",
+        "excerpt": "Desde Villeta llevamos a Paraguay el mismo estándar de gestión y trazabilidad que aplicamos en Brasil.",
+        "body": [
+          "La oficina de Villeta, en el Departamento Central, coordina la gestión de residuos de las cervecerías paraguayas con la misma metodología utilizada en Brasil.",
+          "La operación integrada permite que los grupos con plantas en ambos países cuenten con indicadores comparables y un único estándar de calidad."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "h1": "Contacto",
+    "lead": "Solicite una propuesta o consulte a nuestro equipo en Brasil o Paraguay.",
+    "formTitle": "Envíe su solicitud",
+    "officesTitle": "Nuestras oficinas",
+    "form": {
+      "name": "Nombre",
+      "company": "Empresa",
+      "role": "Cargo",
+      "country": "País",
+      "countryOpts": ["Brasil", "Paraguay", "Otro"],
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "interest": "Tipo de interés",
+      "interestOpts": ["Gestión de residuos para cervecería", "Compostaje", "Nutrición animal (compra de bagazo)", "Tecnología y alianzas", "Otro tema"],
+      "message": "Mensaje",
+      "consent": "Autorizo a Eco 4 Solutions a tratar mis datos para responder a esta solicitud, de acuerdo con la Política de Privacidad.",
+      "submit": "Enviar solicitud",
+      "select": "Seleccione",
+      "required": "Campos obligatorios",
+      "success": "Mensaje enviado. Nuestro equipo responderá a la brevedad."
+    }
+  },
+  "privacy": {
+    "h1": "Política de Privacidad",
+    "updated": "Última actualización: noviembre de 2026",
+    "sections": [
+      { "h": "Quiénes somos", "p": ["Eco 4 Solutions, con oficinas en Brasil y Paraguay, es responsable de los datos personales recopilados en este sitio. Esta política se rige por la legislación paraguaya de protección de datos personales y por la Ley General de Protección de Datos de Brasil (Ley N° 13.709/2018, LGPD)."] },
+      { "h": "Datos que recopilamos", "p": ["A través del formulario de contacto: nombre, empresa, cargo, país, correo electrónico, teléfono, tipo de interés y mensaje. No recopilamos datos sensibles.", "Este sitio no usa cookies de seguimiento ni de publicidad. Solo guardamos en su navegador la preferencia de idioma y de tema, que no lo identifican."] },
+      { "h": "Finalidad y base legal", "p": ["Usamos los datos únicamente para responder a su solicitud y, cuando corresponda, preparar propuestas comerciales. La base legal es su consentimiento y las gestiones previas a un contrato solicitadas por usted."] },
+      { "h": "Comunicación y transferencia internacional", "p": ["Los datos pueden compartirse entre las oficinas de Brasil y Paraguay para atender su solicitud, y con el proveedor de alojamiento del sitio, que procesa los envíos del formulario. No vendemos datos personales."] },
+      { "h": "Conservación", "p": ["Conservamos los datos durante el tiempo necesario para atender la solicitud y cumplir obligaciones legales. Después se eliminan o se anonimizan."] },
+      { "h": "Sus derechos", "p": ["Usted puede solicitar acceso, rectificación, actualización, cancelación u oposición al tratamiento de sus datos y revocar su consentimiento en cualquier momento, además de presentar un reclamo ante la autoridad competente en Paraguay o ante la ANPD en Brasil."] },
+      { "h": "Contacto", "p": ["Para ejercer sus derechos o realizar consultas, escriba a oficina.py@eco4solutions.com (Paraguay) o contato@eco4solutions.com (Brasil)."] }
+    ]
+  },
+  "notFound": {
+    "title": "Página no encontrada | Eco 4 Solutions",
+    "h1": "Página no encontrada",
+    "text": "La dirección que buscó no existe o fue modificada.",
+    "back": "Volver al inicio"
+  }
+}

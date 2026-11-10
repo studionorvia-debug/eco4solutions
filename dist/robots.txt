@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eco4solutions.com/sitemap.xml

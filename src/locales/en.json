@@ -57,7 +57,8 @@
     "ctaSecondary": "Talk to a specialist",
     "certificates": "Certifications",
     "privacy": "Privacy Policy",
-    "office": "Office"
+    "office": "Office",
+    "madeBy": "Developed by"
   },
   "pages": {
     "home": { "title": "Eco 4 Solutions | Brewery waste management and circular economy", "description": "For {years} years we have turned brewing industry waste into animal feed, organic compost and new products. Operating in Brazil and Paraguay." },

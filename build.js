@@ -128,7 +128,7 @@ function header(lang, page) {
   <span><b>PY</b><a href="tel:${py.phoneE164}">${py.phoneDisplay}</a><a href="mailto:${py.email}">${py.email}</a></span>
 </div></div>
 <header class="site-header" id="top"><div class="wrap hdr">
-  <a class="brand" href="${url(lang, 'home')}"><img src="/assets/img/logo.webp" width="532" height="187" alt="${esc(t.common.logoAlt)}"></a>
+  <a class="brand" href="${url(lang, 'home')}"><img class="logo-c" src="/assets/img/logo.webp" width="532" height="187" alt="${esc(t.common.logoAlt)}"><img class="logo-w" src="/assets/img/logo-branco.webp" width="532" height="187" alt="${esc(t.common.logoAlt)}"></a>
   <nav class="nav" id="nav" aria-label="${esc(n.main)}">
     <ul>${items.map(([k, h]) => `<li><a href="${h}"${cur === k ? ' aria-current="page"' : ''}>${esc(n[k])}</a></li>`).join('')}</ul>
   </nav>
@@ -167,7 +167,7 @@ function footer(lang) {
   return `<footer class="site-footer"><div class="wrap">
   <div class="f-grid">
     <div class="f-about">
-      <a class="brand" href="${url(lang, 'home')}"><img src="/assets/img/logo.webp" width="532" height="187" alt="${esc(c.logoAlt)}" loading="lazy"></a>
+      <a class="brand" href="${url(lang, 'home')}"><img class="logo-c" src="/assets/img/logo.webp" width="532" height="187" alt="${esc(c.logoAlt)}" loading="lazy"><img class="logo-w" src="/assets/img/logo-branco.webp" width="532" height="187" alt="${esc(c.logoAlt)}" loading="lazy"></a>
       <p>${esc(c.footerText)}</p>
       ${socials(lang)}
     </div>
@@ -187,6 +187,11 @@ function footer(lang) {
   <div class="f-bottom">
     <p>&copy; ${new Date().getFullYear()} ${esc(cfg.companyName)}. ${esc(c.rights)}</p>
     <a href="${url(lang, 'privacy')}">${esc(c.privacy)}</a>
+    <a class="credit" href="https://instagram.com/studionorvia" target="_blank" rel="noopener" aria-label="${esc(c.madeBy)} Studio Norvia (Instagram)">
+      <span>${esc(c.madeBy)}</span>
+      <img class="credit-dark" src="/assets/img/studio-norvia-preto.svg" width="454" height="128" alt="Studio Norvia" loading="lazy">
+      <img class="credit-light" src="/assets/img/studio-norvia-branco.svg" width="454" height="128" alt="" loading="lazy">
+    </a>
   </div>
 </div></footer>
 <details class="wa">

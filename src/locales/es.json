@@ -57,7 +57,8 @@
     "ctaSecondary": "Hablar con un especialista",
     "certificates": "Certificados",
     "privacy": "Política de Privacidad",
-    "office": "Oficina"
+    "office": "Oficina",
+    "madeBy": "Desarrollado por"
   },
   "pages": {
     "home": { "title": "Eco 4 Solutions | Gestión de residuos cerveceros y economía circular", "description": "Desde hace {years} años transformamos los residuos de la industria cervecera en nutrición animal, compost orgánico y nuevos productos. Presentes en Brasil y Paraguay." },

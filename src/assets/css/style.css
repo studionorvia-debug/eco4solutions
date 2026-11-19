@@ -94,7 +94,8 @@ p { margin: 0 0 1em; text-wrap: pretty; }
 .hdr { display: flex; align-items: center; gap: 24px; height: 76px; }
 .brand { display: block; flex: none; }
 .brand img { height: 42px; width: auto; }
-[data-theme="dark"] .brand img { background: #fff; border-radius: 10px; padding: 4px 8px; }
+.brand .logo-w, [data-theme="dark"] .brand .logo-c { display: none; }
+[data-theme="dark"] .brand .logo-w { display: block; }
 .nav { margin-left: auto; }
 .nav ul { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; }
 .nav a { display: block; padding: 8px 12px; border-radius: 999px; font-weight: 500; font-size: .93rem; text-decoration: none; transition: background-color .2s, color .2s; }
@@ -458,3 +459,14 @@ p { margin: 0 0 1em; text-wrap: pretty; }
 @media (prefers-reduced-motion: reduce) {
   .mq-track { animation: marquee 60s linear infinite !important; }
 }
+
+/* crédito Studio Norvia no rodapé: logo preta no tema claro, branca no escuro */
+.credit { display: inline-flex; align-items: center; gap: 10px; margin-left: auto; text-decoration: none; color: var(--muted); font-size: .8rem; opacity: .85; transition: opacity .2s; }
+.credit:hover { opacity: 1; }
+.credit img { height: 26px; width: auto; }
+.credit-light, [data-theme="dark"] .credit-dark { display: none; }
+[data-theme="dark"] .credit-light { display: block; }
+.f-bottom { align-items: center; }
+@media (max-width: 560px) { .credit { margin-left: 0; } }
+.f-bottom { padding-right: 84px; } /* espaço para o botão flutuante do WhatsApp não cobrir o crédito */
+@media (max-width: 560px) { .f-bottom { padding-right: 0; padding-bottom: 72px; } }
